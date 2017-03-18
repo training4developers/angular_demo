@@ -1,1 +1,3 @@
-<h1>{{message}}</h1>
+<tool-header [header]="header"></tool-header>
+<item-list [items]="colors"></item-list>
+<color-form (colorAdded)="addColor($event)"></color-form>
